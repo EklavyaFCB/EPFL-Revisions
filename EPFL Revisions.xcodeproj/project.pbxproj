@@ -1,0 +1,499 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0800326B1AE2F13F00498FC5 /* 1.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 080032671AE2F13F00498FC5 /* 1.pdf */; };
+		0800326C1AE2F13F00498FC5 /* 2.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 080032681AE2F13F00498FC5 /* 2.pdf */; };
+		0800326D1AE2F13F00498FC5 /* 3.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 080032691AE2F13F00498FC5 /* 3.pdf */; };
+		0800326E1AE2F13F00498FC5 /* 4.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 0800326A1AE2F13F00498FC5 /* 4.pdf */; };
+		080032701AE2F34F00498FC5 /* FlashCards.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0800326F1AE2F34F00498FC5 /* FlashCards.swift */; };
+		080032721AE3210B00498FC5 /* MXCards.swift in Sources */ = {isa = PBXBuildFile; fileRef = 080032711AE3210B00498FC5 /* MXCards.swift */; };
+		08181EDE1B9F7B47004CDB21 /* Cross.png in Resources */ = {isa = PBXBuildFile; fileRef = 08181ED91B9F7B47004CDB21 /* Cross.png */; };
+		08181EDF1B9F7B47004CDB21 /* CrossWrong.png in Resources */ = {isa = PBXBuildFile; fileRef = 08181EDA1B9F7B47004CDB21 /* CrossWrong.png */; };
+		08181EE01B9F7B47004CDB21 /* EPFL Logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 08181EDB1B9F7B47004CDB21 /* EPFL Logo.png */; };
+		08181EE11B9F7B47004CDB21 /* Tick.png in Resources */ = {isa = PBXBuildFile; fileRef = 08181EDC1B9F7B47004CDB21 /* Tick.png */; };
+		08181EE21B9F7B47004CDB21 /* TickCorrect.png in Resources */ = {isa = PBXBuildFile; fileRef = 08181EDD1B9F7B47004CDB21 /* TickCorrect.png */; };
+		0852ABFC1AE2CBF8005372E0 /* EPFL Logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 0852ABFB1AE2CBF8005372E0 /* EPFL Logo.png */; };
+		0852AC081AE2D2CD005372E0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0852AC071AE2D2CD005372E0 /* Images.xcassets */; };
+		085591881AE5155200F490C6 /* LACards.swift in Sources */ = {isa = PBXBuildFile; fileRef = 085591871AE5155200F490C6 /* LACards.swift */; };
+		0855918A1AE520AF00F490C6 /* Tips.swift in Sources */ = {isa = PBXBuildFile; fileRef = 085591891AE520AF00F490C6 /* Tips.swift */; };
+		08B6DEF41AE285DC00772E1E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08B6DEF31AE285DC00772E1E /* AppDelegate.swift */; };
+		08B6DEF61AE285DC00772E1E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08B6DEF51AE285DC00772E1E /* ViewController.swift */; };
+		08B6DEF91AE285DC00772E1E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 08B6DEF71AE285DC00772E1E /* Main.storyboard */; };
+		08B6DEFE1AE285DC00772E1E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 08B6DEFC1AE285DC00772E1E /* LaunchScreen.xib */; };
+		08B6DF0A1AE285DC00772E1E /* EPFL_RevisionsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08B6DF091AE285DC00772E1E /* EPFL_RevisionsTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		08B6DF041AE285DC00772E1E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 08B6DEE61AE285DC00772E1E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 08B6DEED1AE285DC00772E1E;
+			remoteInfo = "EPFL Revisions";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		080032671AE2F13F00498FC5 /* 1.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = 1.pdf; path = Cards/1.pdf; sourceTree = "<group>"; };
+		080032681AE2F13F00498FC5 /* 2.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = 2.pdf; path = Cards/2.pdf; sourceTree = "<group>"; };
+		080032691AE2F13F00498FC5 /* 3.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = 3.pdf; path = Cards/3.pdf; sourceTree = "<group>"; };
+		0800326A1AE2F13F00498FC5 /* 4.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = 4.pdf; path = Cards/4.pdf; sourceTree = "<group>"; };
+		0800326F1AE2F34F00498FC5 /* FlashCards.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlashCards.swift; sourceTree = "<group>"; };
+		080032711AE3210B00498FC5 /* MXCards.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MXCards.swift; sourceTree = "<group>"; };
+		08181ED91B9F7B47004CDB21 /* Cross.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Cross.png; sourceTree = "<group>"; };
+		08181EDA1B9F7B47004CDB21 /* CrossWrong.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CrossWrong.png; sourceTree = "<group>"; };
+		08181EDB1B9F7B47004CDB21 /* EPFL Logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "EPFL Logo.png"; sourceTree = "<group>"; };
+		08181EDC1B9F7B47004CDB21 /* Tick.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Tick.png; sourceTree = "<group>"; };
+		08181EDD1B9F7B47004CDB21 /* TickCorrect.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TickCorrect.png; sourceTree = "<group>"; };
+		0852ABFB1AE2CBF8005372E0 /* EPFL Logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "EPFL Logo.png"; sourceTree = SOURCE_ROOT; };
+		0852AC071AE2D2CD005372E0 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		085591871AE5155200F490C6 /* LACards.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LACards.swift; sourceTree = "<group>"; };
+		085591891AE520AF00F490C6 /* Tips.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tips.swift; sourceTree = "<group>"; };
+		08B6DEEE1AE285DC00772E1E /* EPFL Revisions.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "EPFL Revisions.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		08B6DEF21AE285DC00772E1E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		08B6DEF31AE285DC00772E1E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		08B6DEF51AE285DC00772E1E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		08B6DEF81AE285DC00772E1E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		08B6DEFD1AE285DC00772E1E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		08B6DF031AE285DC00772E1E /* EPFL RevisionsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "EPFL RevisionsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		08B6DF081AE285DC00772E1E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		08B6DF091AE285DC00772E1E /* EPFL_RevisionsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EPFL_RevisionsTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		08B6DEEB1AE285DC00772E1E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		08B6DF001AE285DC00772E1E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0800325E1AE2F0F200498FC5 /* Cards */ = {
+			isa = PBXGroup;
+			children = (
+				080032671AE2F13F00498FC5 /* 1.pdf */,
+				080032681AE2F13F00498FC5 /* 2.pdf */,
+				080032691AE2F13F00498FC5 /* 3.pdf */,
+				0800326A1AE2F13F00498FC5 /* 4.pdf */,
+			);
+			name = Cards;
+			sourceTree = "<group>";
+		};
+		08B6DEE51AE285DC00772E1E = {
+			isa = PBXGroup;
+			children = (
+				08B6DEF01AE285DC00772E1E /* EPFL Revisions */,
+				08B6DF061AE285DC00772E1E /* EPFL RevisionsTests */,
+				08B6DEEF1AE285DC00772E1E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		08B6DEEF1AE285DC00772E1E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				08B6DEEE1AE285DC00772E1E /* EPFL Revisions.app */,
+				08B6DF031AE285DC00772E1E /* EPFL RevisionsTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		08B6DEF01AE285DC00772E1E /* EPFL Revisions */ = {
+			isa = PBXGroup;
+			children = (
+				0800325E1AE2F0F200498FC5 /* Cards */,
+				08B6DEF31AE285DC00772E1E /* AppDelegate.swift */,
+				08B6DEF51AE285DC00772E1E /* ViewController.swift */,
+				08B6DEF71AE285DC00772E1E /* Main.storyboard */,
+				0852AC071AE2D2CD005372E0 /* Images.xcassets */,
+				08B6DEFC1AE285DC00772E1E /* LaunchScreen.xib */,
+				08B6DEF11AE285DC00772E1E /* Supporting Files */,
+			);
+			path = "EPFL Revisions";
+			sourceTree = "<group>";
+		};
+		08B6DEF11AE285DC00772E1E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0852ABFB1AE2CBF8005372E0 /* EPFL Logo.png */,
+				08B6DEF21AE285DC00772E1E /* Info.plist */,
+				085591891AE520AF00F490C6 /* Tips.swift */,
+				0800326F1AE2F34F00498FC5 /* FlashCards.swift */,
+				080032711AE3210B00498FC5 /* MXCards.swift */,
+				085591871AE5155200F490C6 /* LACards.swift */,
+				08181ED91B9F7B47004CDB21 /* Cross.png */,
+				08181EDA1B9F7B47004CDB21 /* CrossWrong.png */,
+				08181EDB1B9F7B47004CDB21 /* EPFL Logo.png */,
+				08181EDC1B9F7B47004CDB21 /* Tick.png */,
+				08181EDD1B9F7B47004CDB21 /* TickCorrect.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		08B6DF061AE285DC00772E1E /* EPFL RevisionsTests */ = {
+			isa = PBXGroup;
+			children = (
+				08B6DF091AE285DC00772E1E /* EPFL_RevisionsTests.swift */,
+				08B6DF071AE285DC00772E1E /* Supporting Files */,
+			);
+			path = "EPFL RevisionsTests";
+			sourceTree = "<group>";
+		};
+		08B6DF071AE285DC00772E1E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				08B6DF081AE285DC00772E1E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		08B6DEED1AE285DC00772E1E /* EPFL Revisions */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 08B6DF0D1AE285DC00772E1E /* Build configuration list for PBXNativeTarget "EPFL Revisions" */;
+			buildPhases = (
+				08B6DEEA1AE285DC00772E1E /* Sources */,
+				08B6DEEB1AE285DC00772E1E /* Frameworks */,
+				08B6DEEC1AE285DC00772E1E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "EPFL Revisions";
+			productName = "EPFL Revisions";
+			productReference = 08B6DEEE1AE285DC00772E1E /* EPFL Revisions.app */;
+			productType = "com.apple.product-type.application";
+		};
+		08B6DF021AE285DC00772E1E /* EPFL RevisionsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 08B6DF101AE285DC00772E1E /* Build configuration list for PBXNativeTarget "EPFL RevisionsTests" */;
+			buildPhases = (
+				08B6DEFF1AE285DC00772E1E /* Sources */,
+				08B6DF001AE285DC00772E1E /* Frameworks */,
+				08B6DF011AE285DC00772E1E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				08B6DF051AE285DC00772E1E /* PBXTargetDependency */,
+			);
+			name = "EPFL RevisionsTests";
+			productName = "EPFL RevisionsTests";
+			productReference = 08B6DF031AE285DC00772E1E /* EPFL RevisionsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		08B6DEE61AE285DC00772E1E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Eklavya Sarkar";
+				TargetAttributes = {
+					08B6DEED1AE285DC00772E1E = {
+						CreatedOnToolsVersion = 6.3;
+						DevelopmentTeam = KSMBE3ZCZB;
+					};
+					08B6DF021AE285DC00772E1E = {
+						CreatedOnToolsVersion = 6.3;
+						TestTargetID = 08B6DEED1AE285DC00772E1E;
+					};
+				};
+			};
+			buildConfigurationList = 08B6DEE91AE285DC00772E1E /* Build configuration list for PBXProject "EPFL Revisions" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 08B6DEE51AE285DC00772E1E;
+			productRefGroup = 08B6DEEF1AE285DC00772E1E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				08B6DEED1AE285DC00772E1E /* EPFL Revisions */,
+				08B6DF021AE285DC00772E1E /* EPFL RevisionsTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		08B6DEEC1AE285DC00772E1E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0852ABFC1AE2CBF8005372E0 /* EPFL Logo.png in Resources */,
+				08181EE01B9F7B47004CDB21 /* EPFL Logo.png in Resources */,
+				08181EE21B9F7B47004CDB21 /* TickCorrect.png in Resources */,
+				0800326E1AE2F13F00498FC5 /* 4.pdf in Resources */,
+				0800326B1AE2F13F00498FC5 /* 1.pdf in Resources */,
+				08181EE11B9F7B47004CDB21 /* Tick.png in Resources */,
+				0800326D1AE2F13F00498FC5 /* 3.pdf in Resources */,
+				0852AC081AE2D2CD005372E0 /* Images.xcassets in Resources */,
+				0800326C1AE2F13F00498FC5 /* 2.pdf in Resources */,
+				08B6DEF91AE285DC00772E1E /* Main.storyboard in Resources */,
+				08181EDE1B9F7B47004CDB21 /* Cross.png in Resources */,
+				08181EDF1B9F7B47004CDB21 /* CrossWrong.png in Resources */,
+				08B6DEFE1AE285DC00772E1E /* LaunchScreen.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		08B6DF011AE285DC00772E1E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		08B6DEEA1AE285DC00772E1E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08B6DEF61AE285DC00772E1E /* ViewController.swift in Sources */,
+				08B6DEF41AE285DC00772E1E /* AppDelegate.swift in Sources */,
+				080032701AE2F34F00498FC5 /* FlashCards.swift in Sources */,
+				085591881AE5155200F490C6 /* LACards.swift in Sources */,
+				080032721AE3210B00498FC5 /* MXCards.swift in Sources */,
+				0855918A1AE520AF00F490C6 /* Tips.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		08B6DEFF1AE285DC00772E1E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08B6DF0A1AE285DC00772E1E /* EPFL_RevisionsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		08B6DF051AE285DC00772E1E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 08B6DEED1AE285DC00772E1E /* EPFL Revisions */;
+			targetProxy = 08B6DF041AE285DC00772E1E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		08B6DEF71AE285DC00772E1E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				08B6DEF81AE285DC00772E1E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		08B6DEFC1AE285DC00772E1E /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				08B6DEFD1AE285DC00772E1E /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		08B6DF0B1AE285DC00772E1E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		08B6DF0C1AE285DC00772E1E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		08B6DF0E1AE285DC00772E1E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "EPFL Revisions/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		08B6DF0F1AE285DC00772E1E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "EPFL Revisions/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		08B6DF111AE285DC00772E1E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "EPFL RevisionsTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EPFL Revisions.app/EPFL Revisions";
+			};
+			name = Debug;
+		};
+		08B6DF121AE285DC00772E1E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "EPFL RevisionsTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EPFL Revisions.app/EPFL Revisions";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		08B6DEE91AE285DC00772E1E /* Build configuration list for PBXProject "EPFL Revisions" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				08B6DF0B1AE285DC00772E1E /* Debug */,
+				08B6DF0C1AE285DC00772E1E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		08B6DF0D1AE285DC00772E1E /* Build configuration list for PBXNativeTarget "EPFL Revisions" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				08B6DF0E1AE285DC00772E1E /* Debug */,
+				08B6DF0F1AE285DC00772E1E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		08B6DF101AE285DC00772E1E /* Build configuration list for PBXNativeTarget "EPFL RevisionsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				08B6DF111AE285DC00772E1E /* Debug */,
+				08B6DF121AE285DC00772E1E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 08B6DEE61AE285DC00772E1E /* Project object */;
+}

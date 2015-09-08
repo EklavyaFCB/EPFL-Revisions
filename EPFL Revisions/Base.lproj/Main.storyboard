@@ -1,0 +1,1019 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7531" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vXZ-lx-hvc">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7520"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--French-->
+        <scene sceneID="QD8-of-iry">
+            <objects>
+                <viewController title="French" id="2Qq-f8-pdp" customClass="Tips" customModule="EPFL_Revisions" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="YDF-SK-rAL"/>
+                        <viewControllerLayoutGuide type="bottom" id="cZo-Zp-6vo"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="lkQ-lA-XcA">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="QtS-Xl-UVw">
+                                <rect key="frame" x="16" y="90" width="382" height="570"/>
+                                <mutableString key="text">- Ne pas se focaliser uniquement sur les séries- Voir tout de même la théorie, sans elle, les séries ne servent à rien- Assister au plus de cours possibles, afin de prendre des notes- Viser les matières à plus gros coefficient (Algèbre, Analyse et Physique)- Le point précédent est vrai mais il ne faut pas pour autant écarter les autres matières !- Écouter attentivement les remarques des profs, des fois, il n’y a pas de traces écrites(Algèbre surtout)- Ne pas hésiter à demander de l’aide à un assistant, ils sont là pour ça !- Ne pas hésiter non plus à parler à un coach quand le moral est à 0, ON EST LÀ POUR CA- Ne pas hésiter à poser des questions aux profs- Savoir trouver le juste milieu entre travail et plaisirs, et quand vous bossez, vous le faites bien- Pour les séries, ne regardez pas le corrigé à chaque fois que vous bloquez. Quitte à passerune heure sur une sous question d’un exercice, c’est mieux que de suivre un corrigé ! Commeça, vous apprendrez- Ne pas avoir de retard sur les séries !- Passer à Sat de temps en temps, profitez de tous les plaisirs que vous donne l’EPFL pour vousdétendre !- Vous êtes en Méca, donc vous êtes d’office les meilleurs !</mutableString>
+                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="grf-cj-eup">
+                                <rect key="frame" x="0.0" y="20" width="414" height="44"/>
+                                <items>
+                                    <navigationItem title="Conseils" id="kBN-oa-icD">
+                                        <barButtonItem key="leftBarButtonItem" title="Retour" id="4Sd-Nv-imt">
+                                            <connections>
+                                                <segue destination="vXZ-lx-hvc" kind="show" id="UCX-c4-VHN"/>
+                                            </connections>
+                                        </barButtonItem>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
+                        </subviews>
+                        <color key="backgroundColor" red="0.94901960784313721" green="0.94901960784313721" blue="0.94901960784313721" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Item 2" id="53v-e1-ljX"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dxq-5U-ejQ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-433" y="949"/>
+        </scene>
+        <!--English-->
+        <scene sceneID="Pv4-Xx-A6j">
+            <objects>
+                <viewController title="English" id="JhN-ML-Wp1" customClass="Tips" customModule="EPFL_Revisions" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="50y-3h-azU"/>
+                        <viewControllerLayoutGuide type="bottom" id="Jjo-0a-7UF"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="j19-xH-ByJ">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="hic-4v-aZb">
+                                <rect key="frame" x="16" y="93" width="382" height="570"/>
+                                <color key="tintColor" name="alternateSelectedControlTextColor" catalog="System" colorSpace="catalog"/>
+                                <mutableString key="text">- Don’t only focus on exercises- Study the theory. Without it, the exercises are useless- Head to a maximum of lessons, to take notes- Aim the courses with the highest coefficients (Algebra, Physics and Analysis)- The previous point is true but still, don’t move the other courses aside !- Pay attention to teachers’ comments, sometimes they aren’t written (Especially Algebra)- Don’t hesitate to ask for help to an assistant, they’re there for it !- Don’t either hesitate to talk to a coach when you’re down, WE’RE THERE FOR IT !- Don’t hesitate to ask questions to the teachers- Find the “happy medium” between work and hobbies and when you work, you do it well- For the exercises, don’t look at the correction directly after blocking in a exercise. Even if youbock for one hour, it’s still better than to look at the correction. So that you can learn- Don’t delay the exercises- Go to Sat, sometimes, enjoy all the pleasures that EPFL can give you !- You’re in Meca, so obviously, you rock !</mutableString>
+                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="4xi-mJ-zGY">
+                                <rect key="frame" x="0.0" y="20" width="414" height="44"/>
+                                <items>
+                                    <navigationItem title="Tips" id="5OC-uc-Vgv">
+                                        <barButtonItem key="leftBarButtonItem" title="Back" id="PDi-fR-I1r">
+                                            <connections>
+                                                <segue destination="vXZ-lx-hvc" kind="show" id="D4T-wp-nPu"/>
+                                            </connections>
+                                        </barButtonItem>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
+                        </subviews>
+                        <color key="backgroundColor" red="0.94901960784313721" green="0.94901960784313721" blue="0.94901960784313721" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Item 1" id="0Hc-Be-zNe"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="3gu-bW-0rh" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-433" y="120"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="8eM-tM-Ale">
+            <objects>
+                <tabBarController id="piL-Gg-b55" sceneMemberID="viewController">
+                    <nil key="simulatedBottomBarMetrics"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina55"/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" id="1xi-vp-F7Q">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="JhN-ML-Wp1" kind="relationship" relationship="viewControllers" id="M2k-br-iyF"/>
+                        <segue destination="2Qq-f8-pdp" kind="relationship" relationship="viewControllers" id="vTL-M4-3o4"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iOi-mH-8IY" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1115" y="525"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="ufC-wZ-h7g">
+            <objects>
+                <viewController id="vXZ-lx-hvc" customClass="ViewController" customModule="EPFL_Revisions" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
+                        <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="EPFL Logo.png" translatesAutoresizingMaskIntoConstraints="NO" id="rc9-zM-TmS">
+                                <rect key="frame" x="87" y="49" width="240" height="128"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="01h-Sp-9GB">
+                                <rect key="frame" x="58" y="275" width="299" height="70"/>
+                                <color key="backgroundColor" red="0.96199682203389825" green="0.0" blue="0.10980392156862745" alpha="0.85999999999999999" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="Start Revising">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.75116502190000001" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="10"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <segue destination="JZ4-go-hCT" kind="show" id="AN6-xS-dKl"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NVt-VU-U4v">
+                                <rect key="frame" x="58" y="471" width="299" height="70"/>
+                                <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.75" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="About">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.75116502190000001" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="10"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <segue destination="bvQ-hd-9e7" kind="show" id="GOf-Oi-7oq"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Revise any course, anytime, anywhere" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HFi-BQ-iGQ">
+                                <rect key="frame" x="60" y="612" width="294" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Jud-1D-4cv">
+                                <rect key="frame" x="58" y="372" width="299" height="70"/>
+                                <color key="backgroundColor" red="0.88744865663426387" green="0.24639097031821203" blue="0.25518918504901911" alpha="0.84999999999999998" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="Tips for EPFL Exams">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.75116502190000001" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="10"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <segue destination="piL-Gg-b55" kind="show" id="m8D-lw-R05"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Suceed at EPFL" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Zb5-YO-SJH">
+                                <rect key="frame" x="145" y="641" width="124" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Welcome to EPFL Revisions" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ND6-9D-RzY">
+                                <rect key="frame" x="89" y="212" width="237" height="34"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.94901960784313721" green="0.94901960784313721" blue="0.94901960784313721" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina55"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="224" y="399"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="uSE-d9-Get">
+            <objects>
+                <viewController id="bvQ-hd-9e7" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="HCI-SL-FmB"/>
+                        <viewControllerLayoutGuide type="bottom" id="4AW-jF-chk"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="U2k-xP-SFL">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="SaL-UI-zKl">
+                                <rect key="frame" x="0.0" y="20" width="414" height="44"/>
+                                <items>
+                                    <navigationItem title="About" id="dgV-5K-PvQ">
+                                        <barButtonItem key="leftBarButtonItem" title="Back" id="AMw-iY-ect">
+                                            <connections>
+                                                <segue destination="vXZ-lx-hvc" kind="show" id="0xu-yA-26X"/>
+                                            </connections>
+                                        </barButtonItem>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="10" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="1220" translatesAutoresizingMaskIntoConstraints="NO" id="5AX-dT-CeQ">
+                                <rect key="frame" x="16" y="64" width="382" height="160"/>
+                                <string key="text">The goal of this App is to give students an interactive platform to revise and prepare for their exams on the go by giving them specific prepared content tailored to the common first-year Bachelor courses at EPFL. </string>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="10" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="1220" translatesAutoresizingMaskIntoConstraints="NO" id="t3W-oj-j8p">
+                                <rect key="frame" x="14" y="199" width="382" height="160"/>
+                                <string key="text">By providing feedback using statistics, our mission is to pass down our learnings and tips to future students in order to improve the student pass rate at EPFL which is currently very low at some sections.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Note: this is not an official EPFL App" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OKy-Uj-syc">
+                                <rect key="frame" x="36" y="694" width="338" height="22"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="during the Facebook Hackathon 2015" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9nU-8d-4Vz">
+                                <rect key="frame" x="52" y="582" width="310" height="24"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="This App was created by:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Hs3-9B-evD">
+                                <rect key="frame" x="110" y="370" width="195" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Eklavya Sarkar" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3TP-BE-mqV">
+                                <rect key="frame" x="62" y="409" width="287" height="53"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Section: GM" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4sj-Lq-qPO">
+                                <rect key="frame" x="159" y="455" width="96" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Section: IC" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="m5j-vX-ujm">
+                                <rect key="frame" x="165" y="535" width="85" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="using only Swift" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mBp-lM-QOg">
+                                <rect key="frame" x="136" y="614" width="139" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Jaufray Sornette" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1ht-aS-Wcn">
+                                <rect key="frame" x="64" y="489" width="287" height="53"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.94901960784313721" green="0.94901960784313721" blue="0.94901960784313721" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina55"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="oop-Us-iUm" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="224" y="1265"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="Q0U-KS-rF2">
+            <objects>
+                <viewController id="vX0-Ma-EvH" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="qao-3H-7r5"/>
+                        <viewControllerLayoutGuide type="bottom" id="BkG-Sk-DPE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="J6d-XA-6zP">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WRV-RN-69Z">
+                                <rect key="frame" x="16" y="133" width="382" height="70"/>
+                                <color key="backgroundColor" red="0.90196078430000004" green="0.7843137255" blue="0.078431372550000003" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="Physics I">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.75116502190000001" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="10"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
+                                </userDefinedRuntimeAttributes>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MyI-ti-O2E">
+                                <rect key="frame" x="16" y="258" width="382" height="70"/>
+                                <color key="backgroundColor" red="0.90196078430000004" green="0.68627450980000004" blue="0.078431372550000003" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="Physics II">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.75116502190000001" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="10"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
+                                </userDefinedRuntimeAttributes>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Sh1-yI-1Kw">
+                                <rect key="frame" x="16" y="514" width="382" height="70"/>
+                                <color key="backgroundColor" red="0.90196078430000004" green="0.3921568627" blue="0.078431372550000003" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="Physics IV">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.75116502190000001" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="10"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
+                                </userDefinedRuntimeAttributes>
+                            </button>
+                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="WqW-CR-kof">
+                                <rect key="frame" x="0.0" y="20" width="414" height="44"/>
+                                <items>
+                                    <navigationItem title="Choose Subject" id="dIM-Ab-Ww1">
+                                        <barButtonItem key="leftBarButtonItem" title="Back" id="NbJ-hk-e6x">
+                                            <connections>
+                                                <segue destination="JZ4-go-hCT" kind="show" id="SXU-JO-Fst"/>
+                                            </connections>
+                                        </barButtonItem>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DRx-I6-Agi">
+                                <rect key="frame" x="16" y="385" width="382" height="70"/>
+                                <color key="backgroundColor" red="0.90196078430000004" green="0.58823529409999997" blue="0.078431372550000003" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="Physics III">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.75116502190000001" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="10"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
+                                </userDefinedRuntimeAttributes>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.94509803921568625" green="0.94509803921568625" blue="0.94509803921568625" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina55"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="qem-8N-tHA" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1377" y="1265"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="O27-Gg-HHV">
+            <objects>
+                <viewController id="JZ4-go-hCT" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="s7m-Di-KnE"/>
+                        <viewControllerLayoutGuide type="bottom" id="KFY-qe-MhY"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="54I-SR-Dlb">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="jqA-8p-d2Q">
+                                <rect key="frame" x="0.0" y="20" width="414" height="44"/>
+                                <items>
+                                    <navigationItem title="Choose Branch" id="Dts-lN-hai">
+                                        <barButtonItem key="leftBarButtonItem" title="Back" id="F8Z-zT-C6t">
+                                            <connections>
+                                                <segue destination="vXZ-lx-hvc" kind="show" id="Ggd-YD-Q0U"/>
+                                            </connections>
+                                        </barButtonItem>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="84p-S9-WyL">
+                                <rect key="frame" x="16" y="137" width="382" height="70"/>
+                                <color key="backgroundColor" red="0.0" green="0.74509803921568629" blue="0.39215686274509803" alpha="0.75" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="Analysis">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.75116502192982448" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="10"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <segue destination="eyd-kD-xMp" kind="show" id="6XM-AF-XyX"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="z9q-nE-Aav">
+                                <rect key="frame" x="16" y="262" width="382" height="71"/>
+                                <color key="backgroundColor" red="0.19607843137254902" green="0.70588235294117641" blue="0.70588235294117641" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="Physics">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.75116502190000001" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="10"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <segue destination="vX0-Ma-EvH" kind="show" id="w0R-px-Ywn"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="F1e-IB-AxT">
+                                <rect key="frame" x="16" y="386" width="382" height="70"/>
+                                <color key="backgroundColor" red="0.19607843137254902" green="0.5490196078431373" blue="0.70588235294117641" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="Material Science">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.75116502190000001" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="10"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <segue destination="Wqn-f7-ZDk" kind="show" id="VIA-Rz-cCo"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6PE-zI-9tj">
+                                <rect key="frame" x="16" y="506" width="382" height="70"/>
+                                <color key="backgroundColor" red="0.19607843137254902" green="0.50980392156862742" blue="0.82352941176470584" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="Linear Algebra">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.75116502190000001" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="10"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <segue destination="DQ8-oV-4lE" kind="show" id="597-p5-gwF"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="0.9518725723870054" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="jqA-8p-d2Q" firstAttribute="leading" secondItem="54I-SR-Dlb" secondAttribute="leadingMargin" constant="-16" id="8qG-eI-gIV"/>
+                            <constraint firstItem="jqA-8p-d2Q" firstAttribute="top" secondItem="s7m-Di-KnE" secondAttribute="bottom" id="dg5-nk-Lxe"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="jqA-8p-d2Q" secondAttribute="trailing" constant="-16" id="mtC-Y7-b1N"/>
+                        </constraints>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina55"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="3v4-CE-UHu" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="783" y="399"/>
+        </scene>
+        <!--Cards-->
+        <scene sceneID="HlP-qp-wb3">
+            <objects>
+                <viewController id="Wqn-f7-ZDk" customClass="MXCards" customModule="EPFL_Revisions" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="L8j-u5-yFF"/>
+                        <viewControllerLayoutGuide type="bottom" id="9yj-b6-4Wg"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="H5i-0l-hyO">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Uaa-O1-hYS">
+                                <rect key="frame" x="0.0" y="20" width="414" height="44"/>
+                                <items>
+                                    <navigationItem title="Study" id="LTG-GP-UyZ">
+                                        <barButtonItem key="leftBarButtonItem" title="Back" id="9aJ-eq-ZKq">
+                                            <connections>
+                                                <segue destination="JZ4-go-hCT" kind="show" id="ZmR-2L-gHw"/>
+                                            </connections>
+                                        </barButtonItem>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eS2-6X-XUq">
+                                <rect key="frame" x="0.0" y="522" width="207" height="214"/>
+                                <color key="backgroundColor" red="0.19888771190000001" green="0.99152542369999996" blue="0.42669160490000002" alpha="0.85999999999999999" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="Zapfino" family="Zapfino" pointSize="30"/>
+                                <state key="normal" title="True">
+                                    <color key="titleColor" red="0.02745098248" green="0.058823533359999999" blue="0.062745101750000004" alpha="1" colorSpace="deviceRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="trueButton:" destination="Wqn-f7-ZDk" eventType="touchUpInside" id="A8c-Gl-OMa"/>
+                                    <action selector="trueButton:" destination="lOp-NR-nf5" eventType="touchUpInside" id="Afa-Si-ZsA"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oJs-Dl-Z9G">
+                                <rect key="frame" x="207" y="522" width="207" height="214"/>
+                                <color key="backgroundColor" red="1" green="0.098516949150000005" blue="0.0" alpha="0.82999999999999996" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="Zapfino" family="Zapfino" pointSize="30"/>
+                                <state key="normal" title="False">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="falseButton:" destination="Wqn-f7-ZDk" eventType="touchUpInside" id="7F2-Zc-EXP"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="KrN-MM-r40">
+                                <rect key="frame" x="152" y="456" width="110" height="58"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.94509803921568625" green="0.94509803921568625" blue="0.94509803921568625" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina55"/>
+                    <connections>
+                        <outlet property="mxLabel" destination="8i1-7K-viI" id="zbi-N2-WTj"/>
+                        <outlet property="responseImage" destination="KrN-MM-r40" id="tPn-0t-CWg"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="AY8-2q-CeX" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1377" y="2084"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="KRb-wm-iaz">
+            <objects>
+                <viewController id="DQ8-oV-4lE" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="RQl-e9-QCN"/>
+                        <viewControllerLayoutGuide type="bottom" id="fbT-DM-pgY"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="eQ9-of-e27">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="SE8-AX-4Vh">
+                                <rect key="frame" x="0.0" y="20" width="414" height="44"/>
+                                <items>
+                                    <navigationItem title="Choose Week" id="uV5-mp-cxx">
+                                        <barButtonItem key="leftBarButtonItem" title="Back" id="Y8s-Pd-g0j">
+                                            <connections>
+                                                <segue destination="JZ4-go-hCT" kind="show" id="u8C-to-NUW"/>
+                                            </connections>
+                                        </barButtonItem>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TMB-Je-UvG">
+                                <rect key="frame" x="16" y="133" width="382" height="70"/>
+                                <color key="backgroundColor" red="0.90196078430000004" green="0.7843137255" blue="0.078431372550000003" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="Week 1">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.75116502190000001" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="10"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <segue destination="lCZ-fK-4rg" kind="show" id="Z3M-G0-N7v"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YHa-dD-mVL">
+                                <rect key="frame" x="16" y="258" width="382" height="70"/>
+                                <color key="backgroundColor" red="0.90196078430000004" green="0.68627450980000004" blue="0.078431372550000003" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="Week 2">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.75116502190000001" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="10"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
+                                </userDefinedRuntimeAttributes>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oRf-tA-aDQ">
+                                <rect key="frame" x="16" y="514" width="382" height="70"/>
+                                <color key="backgroundColor" red="0.90196078430000004" green="0.3921568627" blue="0.078431372550000003" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="Week 4">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.75116502190000001" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="10"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
+                                </userDefinedRuntimeAttributes>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QR6-Mu-cQN">
+                                <rect key="frame" x="16" y="385" width="382" height="70"/>
+                                <color key="backgroundColor" red="0.90196078430000004" green="0.58823529409999997" blue="0.078431372550000003" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="Week 3">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.75116502190000001" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="10"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
+                                </userDefinedRuntimeAttributes>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina55"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="kB0-ha-4zu" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1377" y="2953"/>
+        </scene>
+        <!--Cards-->
+        <scene sceneID="DrG-iV-aqb">
+            <objects>
+                <viewController id="lCZ-fK-4rg" customClass="LACards" customModule="EPFL_Revisions" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="T0Q-gP-jsL"/>
+                        <viewControllerLayoutGuide type="bottom" id="cQA-cy-ABp"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="bit-qE-Jnz">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PHi-dh-7A3">
+                                <rect key="frame" x="0.0" y="522" width="207" height="214"/>
+                                <color key="backgroundColor" red="0.19888771190000001" green="0.99152542369999996" blue="0.42669160490000002" alpha="0.85999999999999999" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="Zapfino" family="Zapfino" pointSize="30"/>
+                                <state key="normal" title="True">
+                                    <color key="titleColor" red="0.02745098248" green="0.058823533359999999" blue="0.062745101750000004" alpha="1" colorSpace="deviceRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="trueButton:" destination="lOp-NR-nf5" eventType="touchUpInside" id="EFe-9L-kjR"/>
+                                    <action selector="trueButton:" destination="lCZ-fK-4rg" eventType="touchUpInside" id="arB-5c-zhB"/>
+                                    <action selector="trueButton:" destination="Wqn-f7-ZDk" eventType="touchUpInside" id="xhy-Lv-GpB"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Qja-b7-TLW">
+                                <rect key="frame" x="207" y="522" width="207" height="214"/>
+                                <color key="backgroundColor" red="1" green="0.098516949150000005" blue="0.0" alpha="0.82999999999999996" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="Zapfino" family="Zapfino" pointSize="30"/>
+                                <state key="normal" title="False">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="falseButton:" destination="Wqn-f7-ZDk" eventType="touchUpInside" id="hnx-k8-AnB"/>
+                                    <action selector="falseButton:" destination="lCZ-fK-4rg" eventType="touchUpInside" id="s1B-BN-6X7"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="7" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8i1-7K-viI">
+                                <rect key="frame" x="29" y="94" width="356" height="338"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="GN8-TN-t5I">
+                                <rect key="frame" x="0.0" y="20" width="414" height="44"/>
+                                <items>
+                                    <navigationItem title="Study" id="g0T-fY-1hx">
+                                        <barButtonItem key="leftBarButtonItem" title="Back" id="uoF-Sr-WdB">
+                                            <connections>
+                                                <segue destination="DQ8-oV-4lE" kind="show" id="DXH-NC-2Xh"/>
+                                            </connections>
+                                        </barButtonItem>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina55"/>
+                    <connections>
+                        <outlet property="laLabel" destination="8i1-7K-viI" id="s5A-Bn-SB5"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="hyM-Hv-KgM" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1925" y="2953"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="f2e-MB-ldA">
+            <objects>
+                <viewController id="eyd-kD-xMp" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="IaH-5J-zcQ"/>
+                        <viewControllerLayoutGuide type="bottom" id="PjO-ju-tme"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="GkW-wf-2hT">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jJD-j5-v15">
+                                <rect key="frame" x="16" y="137" width="382" height="70"/>
+                                <color key="backgroundColor" red="0.90196078431372551" green="0.78431372549019607" blue="0.078431372549019607" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="70" id="aom-Oc-h3V"/>
+                                    <constraint firstAttribute="width" constant="382" id="zju-Pb-fMs"/>
+                                </constraints>
+                                <state key="normal" title="Analysis I">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.75116502190000001" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="10"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <segue destination="UIl-0X-PX7" kind="show" id="4Un-Ez-3Yr"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CSK-gF-oZW">
+                                <rect key="frame" x="16" y="261" width="382" height="70"/>
+                                <color key="backgroundColor" red="0.90196078431372551" green="0.68627450980392157" blue="0.078431372549019607" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="70" id="Tqz-Gi-hs0"/>
+                                    <constraint firstAttribute="width" constant="382" id="Zgk-SF-YeX"/>
+                                </constraints>
+                                <state key="normal" title="Analysis II">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.75116502190000001" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="10"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
+                                </userDefinedRuntimeAttributes>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tvU-4q-Emq">
+                                <rect key="frame" x="16" y="506" width="382" height="70"/>
+                                <color key="backgroundColor" red="0.90196078431372551" green="0.39215686274509803" blue="0.078431372549019607" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="70" id="Ig5-wI-qMa"/>
+                                    <constraint firstAttribute="width" constant="382" id="b8Q-fr-Mq9"/>
+                                </constraints>
+                                <state key="normal" title="Analysis IV">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.75116502190000001" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="10"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
+                                </userDefinedRuntimeAttributes>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="y3n-bj-hm5">
+                                <rect key="frame" x="16" y="385" width="382" height="70"/>
+                                <color key="backgroundColor" red="0.90196078431372551" green="0.58823529411764708" blue="0.078431372549019607" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="70" id="1b4-th-Wrb"/>
+                                    <constraint firstAttribute="width" constant="382" id="3qR-cU-zQU"/>
+                                </constraints>
+                                <state key="normal" title="Analysis III">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.75116502190000001" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="10"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
+                                </userDefinedRuntimeAttributes>
+                            </button>
+                            <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Tlu-Gk-Nre">
+                                <rect key="frame" x="0.0" y="20" width="414" height="44"/>
+                                <items>
+                                    <navigationItem title="Choose Subject" id="JnA-EV-5rX">
+                                        <barButtonItem key="leftBarButtonItem" title="Back" id="KEd-ts-cY5">
+                                            <connections>
+                                                <segue destination="JZ4-go-hCT" kind="show" id="jex-Wn-RDq"/>
+                                            </connections>
+                                        </barButtonItem>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
+                        </subviews>
+                        <color key="backgroundColor" white="0.94478238235085699" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="y3n-bj-hm5" firstAttribute="top" secondItem="CSK-gF-oZW" secondAttribute="bottom" constant="54" id="6pu-zX-9ma"/>
+                            <constraint firstAttribute="centerX" secondItem="CSK-gF-oZW" secondAttribute="centerX" id="710-sB-yBX"/>
+                            <constraint firstItem="CSK-gF-oZW" firstAttribute="top" secondItem="jJD-j5-v15" secondAttribute="bottom" constant="54" id="CJ5-P4-Ilb"/>
+                            <constraint firstAttribute="centerX" secondItem="tvU-4q-Emq" secondAttribute="centerX" id="Ftf-gt-aFi"/>
+                            <constraint firstItem="jJD-j5-v15" firstAttribute="top" secondItem="Tlu-Gk-Nre" secondAttribute="bottom" constant="73" id="JLv-42-8BB"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="Tlu-Gk-Nre" secondAttribute="trailing" constant="-16" id="PaZ-JL-jVn"/>
+                            <constraint firstAttribute="centerX" secondItem="jJD-j5-v15" secondAttribute="centerX" id="Sc4-hT-X2x"/>
+                            <constraint firstItem="tvU-4q-Emq" firstAttribute="top" secondItem="y3n-bj-hm5" secondAttribute="bottom" constant="51" id="f2b-1Y-HVX"/>
+                            <constraint firstAttribute="centerX" secondItem="y3n-bj-hm5" secondAttribute="centerX" id="gFC-Fb-bok"/>
+                            <constraint firstItem="Tlu-Gk-Nre" firstAttribute="leading" secondItem="GkW-wf-2hT" secondAttribute="leadingMargin" constant="-16" id="lh3-n0-45O"/>
+                            <constraint firstItem="Tlu-Gk-Nre" firstAttribute="top" secondItem="IaH-5J-zcQ" secondAttribute="bottom" id="w6c-FH-skX"/>
+                        </constraints>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina55"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="faj-x7-J4h" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1377" y="399"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="hYE-bJ-OGC">
+            <objects>
+                <viewController id="UIl-0X-PX7" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="R0s-NI-aSf"/>
+                        <viewControllerLayoutGuide type="bottom" id="bG1-ky-cbg"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="zqK-kK-ZwE">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="aUL-13-tVA">
+                                <rect key="frame" x="0.0" y="20" width="414" height="44"/>
+                                <items>
+                                    <navigationItem title="Choose Model" id="cu5-Q1-Fxp">
+                                        <barButtonItem key="leftBarButtonItem" title="Back" id="ms6-ej-R7l">
+                                            <connections>
+                                                <segue destination="eyd-kD-xMp" kind="show" id="CPQ-X2-IpI"/>
+                                            </connections>
+                                        </barButtonItem>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Jtc-7Y-eEH">
+                                <rect key="frame" x="16" y="137" width="382" height="70"/>
+                                <color key="backgroundColor" red="0.1960784314" green="0.70588235290000001" blue="0.70588235290000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="299" id="WfV-MG-BQV"/>
+                                    <constraint firstAttribute="height" constant="70" id="jRP-TR-aCN"/>
+                                </constraints>
+                                <state key="normal" title="True or False">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.75116502190000001" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="10"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <segue destination="lOp-NR-nf5" kind="show" id="xFe-as-Jsp"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JRu-nB-qLI">
+                                <rect key="frame" x="16" y="261" width="382" height="70"/>
+                                <color key="backgroundColor" red="0.19607843137254902" green="0.78431372549019607" blue="0.66666666666666663" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="70" id="dik-RH-iLp"/>
+                                    <constraint firstAttribute="width" constant="299" id="h0S-Hu-rIW"/>
+                                </constraints>
+                                <state key="normal" title="Multiple Choice Questions">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.75116502190000001" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="10"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
+                                </userDefinedRuntimeAttributes>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zMb-tK-ETg">
+                                <rect key="frame" x="16" y="385" width="382" height="70"/>
+                                <color key="backgroundColor" red="0.19607843137254902" green="0.82352941176470584" blue="0.66666666666666663" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="70" id="Uiw-as-vZd"/>
+                                    <constraint firstAttribute="width" constant="299" id="s5o-4g-oTt"/>
+                                </constraints>
+                                <state key="normal" title="Fill in the blanks">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.75116502190000001" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="10"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
+                                </userDefinedRuntimeAttributes>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.94509803921568625" green="0.94509803921568625" blue="0.94509803921568625" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="trailingMargin" secondItem="aUL-13-tVA" secondAttribute="trailing" constant="-16" id="0aR-10-QrE"/>
+                            <constraint firstAttribute="centerX" secondItem="zMb-tK-ETg" secondAttribute="centerX" id="6k8-oM-RJk"/>
+                            <constraint firstAttribute="centerX" secondItem="Jtc-7Y-eEH" secondAttribute="centerX" id="7nb-c5-iIK"/>
+                            <constraint firstItem="aUL-13-tVA" firstAttribute="leading" secondItem="zqK-kK-ZwE" secondAttribute="leadingMargin" constant="-16" id="RB1-zW-7rP"/>
+                            <constraint firstAttribute="centerX" secondItem="aUL-13-tVA" secondAttribute="centerX" id="e5m-FN-weJ"/>
+                            <constraint firstItem="aUL-13-tVA" firstAttribute="top" secondItem="R0s-NI-aSf" secondAttribute="bottom" id="iAe-6O-Idu"/>
+                            <constraint firstAttribute="centerX" secondItem="JRu-nB-qLI" secondAttribute="centerX" id="iG4-ty-Dkh"/>
+                            <constraint firstItem="Jtc-7Y-eEH" firstAttribute="top" secondItem="aUL-13-tVA" secondAttribute="bottom" constant="74" id="oVz-d8-gsU"/>
+                            <constraint firstItem="JRu-nB-qLI" firstAttribute="top" secondItem="Jtc-7Y-eEH" secondAttribute="bottom" constant="91" id="q6Y-MR-TTk"/>
+                            <constraint firstItem="zMb-tK-ETg" firstAttribute="top" secondItem="JRu-nB-qLI" secondAttribute="bottom" constant="89" id="ucv-aV-00r"/>
+                        </constraints>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina55"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="suk-of-oUZ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1925" y="399"/>
+        </scene>
+        <!--Flash Cards-->
+        <scene sceneID="NUM-gR-YzA">
+            <objects>
+                <viewController id="lOp-NR-nf5" customClass="FlashCards" customModule="EPFL_Revisions" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="VRB-iJ-kEe"/>
+                        <viewControllerLayoutGuide type="bottom" id="C90-xE-ugg"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="hFq-4B-gll">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="L1h-C8-b58">
+                                <rect key="frame" x="0.0" y="20" width="416" height="44"/>
+                                <items>
+                                    <navigationItem title="Revision" id="lHU-hz-h2J">
+                                        <barButtonItem key="leftBarButtonItem" title="Back" id="VgF-d8-jTc">
+                                            <connections>
+                                                <segue destination="UIl-0X-PX7" kind="show" id="PxU-fy-GfL"/>
+                                            </connections>
+                                        </barButtonItem>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jFz-b3-3C4">
+                                <rect key="frame" x="166" y="255" width="0.0" height="0.0"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wDg-o2-pXf">
+                                <rect key="frame" x="0.0" y="522" width="210" height="214"/>
+                                <color key="backgroundColor" red="0.19888771186440679" green="0.99152542372881358" blue="0.42669160487288077" alpha="0.85999999999999999" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="Zapfino" family="Zapfino" pointSize="30"/>
+                                <state key="normal" title="True">
+                                    <color key="titleColor" red="0.027450982481241226" green="0.058823533356189728" blue="0.062745101749897003" alpha="1" colorSpace="deviceRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="trueButton:" destination="lOp-NR-nf5" eventType="touchUpInside" id="MhM-cg-U9q"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9hx-eh-vhQ">
+                                <rect key="frame" x="209" y="522" width="207" height="214"/>
+                                <color key="backgroundColor" red="1" green="0.098516949152542374" blue="0.0" alpha="0.83000000000000007" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="Zapfino" family="Zapfino" pointSize="30"/>
+                                <state key="normal" title="False">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="falseButton:" destination="lOp-NR-nf5" eventType="touchUpInside" id="6KV-Rw-2Sh"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Fxt-ym-Wo2">
+                                <rect key="frame" x="27" y="87" width="361" height="410"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.94509803921568625" green="0.94509803921568625" blue="0.94509803921568625" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina55"/>
+                    <connections>
+                        <outlet property="myCard" destination="Fxt-ym-Wo2" id="XCf-5X-4Ah"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="hdC-bF-W8Q" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2503" y="399"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="EPFL Logo.png" width="261" height="125"/>
+    </resources>
+    <inferredMetricsTieBreakers>
+        <segue reference="0xu-yA-26X"/>
+        <segue reference="ZmR-2L-gHw"/>
+        <segue reference="6XM-AF-XyX"/>
+        <segue reference="4Un-Ez-3Yr"/>
+        <segue reference="DXH-NC-2Xh"/>
+    </inferredMetricsTieBreakers>
+</document>
