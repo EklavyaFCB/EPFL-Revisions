@@ -1,4 +1,4 @@
-#### EPFL REVISIONS
+#### EPFL REVISIONS - EPFL Facebook Hackathon 2015
 
 The goal of this App is to give students an interactive platform to revise and prepare for their exams on the go by giving them specific prepared content tailored to the common first-year Bachelor courses at EPFL. 
 
